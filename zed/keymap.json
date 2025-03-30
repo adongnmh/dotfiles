@@ -8,7 +8,6 @@
 [
   {
     "context": "Workspace",
-    "use_key_equivalents": true,
     "bindings": {
       "shift shift": "file_finder::Toggle"
     }
@@ -20,5 +19,10 @@
       "cmd-alt-right": "pane::GoForward",
       "cmd-alt-left": "pane::GoBack"
     }
+  },
+  {
+    "context": "Terminal",
+    "use_key_equivalents": true,
+    "cmd-t": "workspace::NewTerminal"
   }
 ]
