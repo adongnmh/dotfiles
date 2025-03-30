@@ -23,6 +23,8 @@
   {
     "context": "Terminal",
     "use_key_equivalents": true,
-    "cmd-t": "workspace::NewTerminal"
+    "bindings": {
+      "cmd-n": "workspace::NewTerminal"
+    }
   }
 ]
