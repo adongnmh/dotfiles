@@ -7,6 +7,8 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "show_edit_predictions": true,
+  "icon_theme": "Bearded Icon Theme",
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
