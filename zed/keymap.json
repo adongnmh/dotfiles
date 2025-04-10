@@ -6,11 +6,20 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
+  // Standard macOS bindings
+  {
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-o": "file_finder::Toggle",
+      "cmd-shift-o": "workspace::Open"
+    }
+  },
   {
     "context": "Workspace",
     "bindings": {
       "shift shift": "file_finder::Toggle",
-      "alt-cmd-p": "projects::OpenRecent"
+      "alt-cmd-p": "projects::OpenRecent",
+      "cmd-`": "workspace::ToggleBottomDock"
     }
   },
   {
@@ -33,8 +42,15 @@
     "context": "Editor && mode == full",
     "use_key_equivalents": true,
     "bindings": {
-      "cmd-shift-o": "outline::Toggle",
+      // "cmd-shift-o": "outline::Toggle",
       "ctrl-l": "go_to_line::Toggle"
+    }
+  },
+  {
+    "context": "BufferSearchBar",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-o": null
     }
   }
 ]
