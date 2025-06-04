@@ -28,6 +28,7 @@
       "cmd-`": "terminal_panel::ToggleFocus",
       "cmd-alt-right": "pane::GoForward",
       "cmd-alt-left": "pane::GoBack",
+      "cmd-y": "editor::Redo",
       "ctrl-g": ["editor::SelectNext", { "replace_newest": false }] // Add selection to Next Find Match
     }
   },
@@ -43,7 +44,7 @@
     "use_key_equivalents": true,
     "bindings": {
       // "cmd-shift-o": "outline::Toggle",
-      "ctrl-l": "go_to_line::Toggle"
+      "cmd-l": "go_to_line::Toggle"
     }
   },
   {
